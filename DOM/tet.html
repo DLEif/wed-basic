@@ -11,92 +11,96 @@
   <form>
   <p><h1><center>统一建模语言理论测试</center></h1>
 
-    考试科目：<u><strong>&nbsp;统一建模语言UML&nbsp;</strong></u>&nbsp;&nbsp;&nbsp;
-    时间：<u>&nbsp;&nbsp;100分钟&nbsp;&nbsp;</u>&nbsp;&nbsp;
+    考试科目：<u><strong>&nbsp;
+    统一建模语言UML&nbsp;</strong></u>&nbsp;&nbsp;&nbsp;
+    时间：<u>&nbsp;&nbsp;
+    100分钟&nbsp;&nbsp;</u>&nbsp;&nbsp;
     得分：<input type='text' id='print' size='11' /><br/>
-    班&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;级：
-    <input type='text' id='class' size='12'/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    班&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    级：<input type='text' id='class' size='12'/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     学号：<input type='text' id='id' size='7'/>&nbsp;&nbsp;&nbsp;
     姓名：<input type='text' id='name' size='11'/><br/>
     <overflow:auto/>
+
   </p>
 
   <strong>一、	填空题</strong><br/>
 
-    1.UML 的中文全称是:<input type='text' id='fullName' size='20'/><br/>
-    2.对象最突出的特征是:<input type='text' id='property1' size='10' />、
+    1.UML 的中文全称是：<input type='text' id='fullName' size='20'/><br/>
+    2.对象最突出的特征是：<input type='text' id='property1' size='10' />、
                       <input type='text' id='property2' size='10' />、
                       <input type='text' id='property3' size='10' />。
 
   <p><strong>二、	选择题</strong></p>
 
-    1.UML 与软件工程的关系是:【<input type='text' id='relation0' size='5'/>】<br/>
+    1.UML 与软件工程的关系是：<br/>
 
-      <input type="radio" id="relation1" name=abc value="A" />
+      <input type="radio" id="relation1" name="abc" value="A" />
         (A)UML 就是软件工程<br/>
-      <input type="radio" id="relation2"  name=abc value="B" />
+      <input type="radio" id="relation2"  name="abc" value="B" />
         (B)UML 参与到软件工程中软件开发过程的几个阶段<br/>
-      <input type="radio" id="relation3" name=abc value="C" />
+      <input type="radio" id="relation3" name="abc" value="C" />
         (C)UML 与软件工程无关<br/>
-      <input type="radio" id="relation4" name=abc value="D" />
+      <input type="radio" id="relation4" name="abc" value="D" />
         (D)UML 是软件工程的一部分<br/>
 
-    2.Java 语言支持:【<input type='text' id='sustain0' size='5'/>】<br/>
+    2.Java 语言支持：<br/>
 
-    <input type="radio" id="sustain1" value="A" />
+    <input type="radio" id="sustain1" name="cba" value="A" />
       (A)单继承<br/>
-    <input type="radio" id="sustain2" value="B" />
+    <input type="radio" id="sustain2" name="cba" value="B" />
       (B)多继承<br/>
-    <input type="radio" id="sustain3" value="C" />
+    <input type="radio" id="sustain3" name="cba" value="C" />
       (C)单继承和多继承都支持<br/>
-    <input type="radio" id="sustain4" value="D" />
+    <input type="radio" id="sustain4" name="cba" value="D" />
       (D)单继承和多继承都不支持<br/>
 
     <strong>三、	多选题</strong>
 
-    1. 用例的粒度分为以下哪三种。【<input type='text' id='classify0' size='5'/>】<br/>
+    1. 用例的粒度分为以下哪三种。<br/>
 
-    <input type="checkbox" name="classify1" value="A"/>
+    <input type="checkbox" name="classify" value="A"/>
     (A)概述级 <br/>
-    <input type="checkbox" name="classify2" value="B"/>
+    <input type="checkbox" name="classify" value="B"/>
     (B)需求级 <br/>
-    <input type="checkbox" name="classify3" value="C"/>
+    <input type="checkbox" name="classify" value="C"/>
     (C)用户目标级、<br/>
-    <input type="checkbox" name="classify4" value="D"/>
+    <input type="checkbox" name="classify" value="D"/>
     (D)子功能级<br/>
 
-    2. 类图由以下哪三部分组成。【<input type='text' id='comprise0' size='5'/>】<br/>
+    2. 类图由以下哪三部分组成。<br/>
 
-    <input type="checkbox" name="comprise1" value="A"/>
+    <input type="checkbox" name="comprise" value="A"/>
     (A)名称(Name)<br/>
-    <input type="checkbox" name="comprise2" value="B"/>
+    <input type="checkbox" name="comprise" value="B"/>
     (B)属性(Attribute)<br/>
-    <input type="checkbox" name="comprise3" value="C"/>
+    <input type="checkbox" name="comprise" value="C"/>
     (C)操作(Operation)<br/>
-    <input type="checkbox" name="comprise4" value="D"/>
+    <input type="checkbox" name="comprise" value="D"/>
     (D)方法(Function)<br/>
-
 
     <p><strong>四、	判断题</strong></p>
 
     <div id="result"></div>
 
-    1. 用例图只是用于和客户交流和沟通的,用于确定需求。【<input type='text' id='judge1' size='5'/>】<br/>
-    <input type="radio" name="comprise" value="✔"/>
+    1. 用例图只是用于和客户交流和沟通的,用于确定需求。<br/>
+    <input type="radio" id="option1" name="judge1" value="true"/>
     ture<br/>
-    <input type="radio" name="comprise" value="✘"/>
+    <input type="radio" id="option2" name="judge1" value="false"/>
     fault<br/>
-    2. 在状态图中,终止状态在一个状态图中允许有任意多个。【<input type='text' id='judge2' size='5'/>】<br/>
-    <input type="radio" name="comprise" value="✔"/>
+    2. 在状态图中,终止状态在一个状态图中允许有任意多个。<br/>
+    <input type="radio" id="option3" name="judge2" value="true"/>
     ture<br/>
-    <input type="radio" name="comprise" value="✘"/>
+    <input type="radio" id="option4" name="judge2" value="false"/>
     fault<br/>
 
     <p><strong>五、	简答题(每题4分, 共20分)</strong></p>
 
-    1. 简述什么是模型以及模型的表现形式?<id='talk'>
+    1. 简述什么是模型以及模型的表现形式?
 
-    <p><textarea></textarea></p>
+    <p>
+      <textarea id="talk" name="text1" cols="50px" rows="10px"></textarea>
+    </p>
 
     <p><input type="button" value='提交' onclick="checkform()"></input></p>
 
